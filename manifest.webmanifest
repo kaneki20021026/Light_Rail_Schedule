@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "兆麟 → 屯門 · 下一班輕鐵",
+  "short_name": "下一班輕鐵",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f5ec",
+  "theme_color": "#174e42",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

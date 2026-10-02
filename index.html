@@ -26,6 +26,8 @@
 .route-tab svg{width:18px;height:18px;flex-shrink:0}.route-tab strong{font-size:12px;white-space:nowrap}.route-tab span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}header{margin-bottom:12px}
 .rail-section{border:0;margin-top:0;padding-top:0}.rail-refresh{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:17px}.rail-refresh button{border-radius:12px;width:auto;padding:0 14px;font-size:13px}
 @media(max-width:350px){.route-tabs{gap:2px}.route-tab{gap:3px}.route-tab strong{font-size:11px}}
+
+.journey{display:grid;grid-template-columns:minmax(0,1fr) 32px 86px;align-items:center;gap:4px 7px;padding:10px 2px 0;color:#80532d}.tkl .journey{color:#694274}.journey-summary{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;white-space:nowrap}.journey-summary svg{width:27px;height:20px;flex-shrink:0}.journey-gps{width:32px;height:32px;border-radius:9px;color:inherit}.journey-gps svg{width:18px;height:18px}.journey-gps[aria-pressed="true"]{background:#e4eadb;border-color:currentColor}.journey-station{width:86px;height:32px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--ink);font:inherit;font-size:11px;padding:0 3px}.journey-station:focus-visible{outline:3px solid #ae811f;outline-offset:3px}.journey-station.manual{border-color:currentColor}.journey-hint{grid-column:1/-1;color:var(--muted);font-size:10px;padding-left:33px;min-height:14px}@media(max-width:370px){.journey{column-gap:4px;grid-template-columns:minmax(0,1fr) 30px 74px}.journey-station{width:74px}.journey-summary{font-size:12px;gap:3px}.journey-summary svg{width:20px}.journey-hint{padding-left:23px}}
 </style>
 </head>
 <body>
@@ -73,6 +75,8 @@ $('refresh').addEventListener('click',refresh);document.addEventListener('visibi
 </script>
 <script src="./rail.js"></script>
 <script src="./tabs.js"></script>
+<script src="./stations.js"></script>
+<script src="./journey.js"></script>
 </body>
 </html>
 
